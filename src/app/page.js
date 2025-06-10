@@ -26,7 +26,7 @@ export default function Home() {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-[#9256A4] via-[#4D2C5E] to-[#2B2D42]">
       <ProgressBar />
       <FloatingCTA />
       

@@ -9,7 +9,7 @@ export default function Hero() {
   const [videoPlaying, setVideoPlaying] = useState(false);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#9256A4]">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.1)_1px,transparent_0)] bg-[length:20px_20px]" />
       
